@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: "Inria Sans";
+}
+
+.title {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.container {
+    background-color:rgba(255, 255, 255, 1);
+    width:400px;
+    height:550px;
+    position:absolute;
+    border: 5px solid #e2f7ff;
+    box-shadow: 5px 10px #e2f7ff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.inputPanel {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#inputText1 {
+    width:250px;
+    height:18px;
+    text-align:left;
+    font-size:12px;
+    border-radius: 5px;
+    border-color:lightsalmon;
+    border-style: solid;
+}
+#submitButton {
+    background-color: lightsalmon;
+    border-radius: 3px;
+    border-color: lightsalmon;
+    color: white;
+    border-style: solid;
+}
+#allButton {
+    background-color: lightsalmon;
+    border-radius: 3px;
+    border-color: lightsalmon;
+    color: white;
+    border-style: solid;
+}
+#activeButton {
+    background-color: white;
+    border-radius: 3px;
+    border-color: lightgray;
+    color: lightgray;
+    border-style: solid;
+}
+
+#completeButton {
+    background-color: white;
+    border-radius: 3px;
+    border-color: lightgray;
+    color: lightgray;
+    border-style: solid;
+}
+.line {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.contentPanel {
+    display: inline-flex;
+    margin-bottom: 15px;
+}
