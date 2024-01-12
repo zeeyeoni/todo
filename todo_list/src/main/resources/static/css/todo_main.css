@@ -1,0 +1,130 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: "Inria Sans";
+}
+
+
+.threeButton {
+    margin-left: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: row;
+}
+.threeButton > button{
+    margin-left: 7px;
+}
+.title {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.container {
+    background-color:rgba(255, 255, 255, 1);
+    width:400px;
+    height:550px;
+    position:absolute;
+    border: 5px solid #e2f7ff;
+    box-shadow: 5px 10px #e2f7ff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.inputPanel {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#inputText1 {
+    width:250px;
+    height:18px;
+    text-align:left;
+    font-size:12px;
+    border-radius: 5px;
+    border-color:lightsalmon;
+    border-style: solid;
+}
+#submitButton {
+    background-color: lightsalmon;
+    border-radius: 3px;
+    border-color: lightsalmon;
+    color: white;
+    border-style: solid;
+}
+#submitButton:hover, #allButton:hover{
+    color: lightsalmon;
+    background-color: white;
+    border-color: lightsalmon;
+    cursor: pointer;
+}
+#activeButton:hover, #completeButton:hover, #editButton:hover, #deleteButton:hover {
+    color: white;
+    background-color: lightgray;
+    cursor: pointer;
+}
+#allButton {
+    background-color: lightsalmon;
+    border-radius: 3px;
+    border-color: lightsalmon;
+    color: white;
+    border-style: solid;
+}
+#activeButton, #completeButton, #editButton, #deleteButton {
+    background-color: white;
+    border-radius: 3px;
+    border-color: lightgray;
+    color: lightgray;
+    border-style: solid;
+}
+
+.contentPanel {
+    display: inline-flex;
+    margin-bottom: 15px;
+}
+
+.todoBodyContainer {
+    margin-top: 5px;
+    padding-bottom: 5px;
+    height: 380px;
+    /*페이지 넘어가면 자동스크롤 추가*/
+    overflow-x: auto;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.todoBodyContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.textAllPanel {
+    width: 90%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 18px;
+    /*word-break: break-all;*/
+}
+.textPanel {
+    display: flex;
+    /*width: 74%;*/
+}
+.textPanel > div{
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.editDeleteButton {
+    display: flex;
+}
+.editDeleteButton > button {
+    margin-left: 6px;
+}
